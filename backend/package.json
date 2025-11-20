@@ -1,0 +1,17 @@
+{
+  "name": "zip-password-local-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/server.ts",
+    "start": "bun src/server.ts"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "archiver-zip-encrypted": "^1.0.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.2",
+    "typescript": "^5.5.4"
+  }
+}
